@@ -68,7 +68,9 @@
           window.WebChat.default(
             {
               customData: { language: "en" },
-              socketUrl: "http://127.0.0.1:5005",
+              initPayload: '/greet',
+              // socketUrl: "http://localhost:5005",
+              socketUrl: "https://dde4-27-66-47-205.ngrok.io/",
               title: 'Healthcare Agent',
               subtitle: 'Virtual healthcare for you',
               showMessageDate: true,
